@@ -1,35 +1,35 @@
 # Bright Data Amazon Product Scraper with Selenium WebDriver
 
-This project demonstrates how to use Bright Data's Scraping Browser with Selenium WebDriver to search for products on Amazon.com. It provides a practical example of web scraping with automated browser control.
+このプロジェクトでは、Bright Data の Scraping Browser を Selenium WebDriver と併用して Amazon.com で商品を検索する方法を示します。自動化されたブラウザ制御による Webスクレイピングの実用的な例を提供します。
 
-<a href="https://codesandbox.io/p/devbox/github/luminati-io/bright-data-scraping-browser-nodejs-selenium-project?file=%2Famazon-product-scraping.js" target="_blank" rel="noopener">Open in CodeSandbox</a>, sign in with GitHub account, then fork the repository to begin making changes.
+<a href="https://codesandbox.io/p/devbox/github/luminati-io/bright-data-scraping-browser-nodejs-selenium-project?file=%2Famazon-product-scraping.js" target="_blank" rel="noopener">Open in CodeSandbox</a> を開き、GitHub アカウントでサインインしてから、リポジトリを fork して変更を開始してください。
 
 ### Getting Started
 
-1. Replace the `YOUR_BRIGHT_DATA_SCRAPING_BROWSER_ENDPOINT` value with your actual Bright Data scraping browser endpoint in `amazon-product-scraping.js`:
-2. Run `node amazon-product-scraping.js` to start scraping
+1. `amazon-product-scraping.js` の `YOUR_BRIGHT_DATA_SCRAPING_BROWSER_ENDPOINT` 値を、実際の Bright Data scraping browser endpoint に置き換えてください：
+2. `node amazon-product-scraping.js` を実行してスクレイピングを開始してください
 
 
 ## 💻 Usage
 
-1. Modify search parameters in `amazon-product-scraping.js`:
+1. `amazon-product-scraping.js` で検索パラメータを変更してください：
    ```javascript
    const SEARCH_TERM = "laptop";   // Change to your search term
    ```
 
-2. Run the script:
+2. スクリプトを実行してください：
    ```bash
    node amazon-product-scraping.js
    ```
 
 ## 🔍 How It Works
 
-The script uses Selenium WebDriver to:
-1. Connect to Bright Data's Scraping Browser
-2. Navigate to Amazon.com
-3. Search for products using the specified search term
-4. Extract product information (title, price, rating)
-5. Display the results in a formatted way
+このスクリプトは Selenium WebDriver を使用して以下を行います：
+1. Bright Data の Scraping Browser に接続します
+2. Amazon.com に移動します
+3. 指定した検索語を使用して商品を検索します
+4. 商品情報（タイトル、価格、評価）を抽出します
+5. 結果を整形して表示します
 
 ```javascript
 // Initialize the WebDriver using Bright Data's Scraping Browser
