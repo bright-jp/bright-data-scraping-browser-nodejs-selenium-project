@@ -2,7 +2,7 @@
 
 このプロジェクトでは、Bright Data の Scraping Browser を Selenium WebDriver とともに使用して Booking.com でホテルを検索する方法を示します。自動化されたブラウザ制御による Webスクレイピング の実用的な例を提供します。
 
-<a href="https://codesandbox.io/p/devbox/github/luminati-io/bright-data-scraping-browser-selenium-webdriver-project?file=%2Fbooking-hotel-scraping.js" target="_blank" rel="noopener">Open in CodeSandbox</a> を開き、GitHub アカウントでサインインしてから、リポジトリをフォークして変更を開始してください。
+<a href="https://codesandbox.io/p/devbox/github/bright-jp/bright-data-scraping-browser-selenium-webdriver-project?file=%2Fbooking-hotel-scraping.js" target="_blank" rel="noopener">Open in CodeSandbox</a> を開き、GitHub アカウントでサインインしてから、リポジトリをフォークして変更を開始してください。
 
 ### Getting Started
 
