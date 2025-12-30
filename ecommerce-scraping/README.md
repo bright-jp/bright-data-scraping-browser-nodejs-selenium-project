@@ -2,7 +2,7 @@
 
 このプロジェクトでは、Bright Data の Scraping Browser を Selenium WebDriver と併用して Amazon.com で商品を検索する方法を示します。自動化されたブラウザ制御による Webスクレイピングの実用的な例を提供します。
 
-<a href="https://codesandbox.io/p/devbox/github/luminati-io/bright-data-scraping-browser-nodejs-selenium-project?file=%2Famazon-product-scraping.js" target="_blank" rel="noopener">Open in CodeSandbox</a> を開き、GitHub アカウントでサインインしてから、リポジトリを fork して変更を開始してください。
+<a href="https://codesandbox.io/p/devbox/github/bright-jp/bright-data-scraping-browser-nodejs-selenium-project?file=%2Famazon-product-scraping.js" target="_blank" rel="noopener">Open in CodeSandbox</a> を開き、GitHub アカウントでサインインしてから、リポジトリを fork して変更を開始してください。
 
 ### Getting Started
 
